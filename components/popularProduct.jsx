@@ -56,17 +56,16 @@ const PopularProducts = () => {
                   {item.title}
                 </h3>
                 <p className="text-gray-600 text-sm mb-4">{item.desc}</p>
-
-                <Link
-                  href="/PopularProduct"
-                  className="text-red-600 font-semibold underline underline-offset-4 hover:text-red-800 transition"
-                >
-                  Learn More →
-                </Link>
               </div>
             </div>
           ))}
         </div>
+        <Link
+          href="/PopularProduct"
+          className="text-red-600 font-semibold underline underline-offset-4 hover:text-red-800 transition"
+        >
+          Learn More →
+        </Link>
       </div>
     </section>
   );

@@ -16,7 +16,7 @@ const Footer = () => {
 
         {/* Contact Info */}
         <p className="text-sm text-gray-400">
-          📞 9818298432 | ✉️ info@borosiltrading.com
+          📞 9818298432 | 7982523279
         </p>
 
         {/* Copyright */}

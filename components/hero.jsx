@@ -23,11 +23,12 @@ const HeroSection = () => {
         {/* Left Side */}
         <div className="md:w-1/2 mb-10 md:mb-0">
           <h1 className="text-4xl font-extrabold mb-4 leading-snug drop-shadow-lg">
-            Welcome to <span className="text-red-500">Gaurav<span className="text-blue-950">Trading</span></span>
+            Best Borosilicate Glassware 
+            Seller in India | <strong><span className="text-red-500">Gaurav</span><span className="text-blue-950">Trading </span></strong>
           </h1>
           <p className="text-lg mb-6 drop-shadow-md">
-            We provide customized Borosil glassware products at the best prices.
-            We also offer test tubes, beakers, and similar lab items with excellent packaging quality — along with screw caps and wooden corks.
+            We provide customized <strong> Borosilicate glassware</strong> products at the best prices.
+            We also offer <strong> test tubes, beakers,</strong> and similar lab items with excellent packaging quality — along with <strong>screw caps and wooden corks.</strong>
           </p>
           <a
             href="https://wa.me/9818298432"
@@ -51,7 +52,7 @@ const HeroSection = () => {
         <div className="md:w-1/2 flex justify-center">
           <Image
             src={Heroimg}
-            alt="Hero Section Image"
+            alt="Measuring Cylinder"
             width={600}
             height={600}
             className="hidden md:block rounded-2xl object-contain"

@@ -21,7 +21,7 @@ const AboutSection = () => {
 
         {/* Contact Info / Address */}
         <div className="text-gray-700 text-sm">
-          <p><strong>📍 Address:</strong> 36G-A, GALI NO.5, BHAGAT VIHAR, KARAWAL NAGAR, DELHI-1100G4</p>
+          <p><strong>📍 Address:</strong> 369-A, GALI NO.5, BHAGAT VIHAR, KARAWAL NAGAR, DELHI-1100G4</p>
           <p><strong>📞 Phone:</strong> +91-98182-98432</p>
         </div>
       </div>

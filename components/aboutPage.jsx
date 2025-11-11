@@ -12,7 +12,7 @@ export default function AboutPage() {
         <div className="md:w-1/2">
           <Image
             src={Bottles} // 👈 apni image ka path yahan lagao
-            alt="About Us"
+            alt="Borosil Product seller Company || Delhi"
             className="rounded-2xl shadow-lg w-full object-cover"
           />
         </div>
@@ -25,7 +25,7 @@ export default function AboutPage() {
 
           <p className="text-lg mb-4 leading-relaxed">
             We are a trusted supplier of high-quality glassware and laboratory
-            products, We deliver our products across India with the best packaging quality. We prefer receiving payments in advance. Our main office is located at 36G-A, Gali No. 5, Bhagat Vihar, Karawal Nagar, Delhi–110094.
+            products, We deliver our products across India with the best packaging quality. We prefer receiving payments in advance. Our main office is located at 369-A, Gali No. 5, Bhagat Vihar, Karawal Nagar, Delhi–110094.
           </p>
 
           <p className="text-lg mb-4 leading-relaxed">

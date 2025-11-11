@@ -5,15 +5,15 @@ import Product3 from "@/public/caps.png";
 
 const ProductsSection = () => {
   const products = [
-    { id: 1, img: Product1, title: "Custom Design", desc: "We can create custom products based on your design." },
+    { id: 1, img: Product1, title: "Custom Designed Borosilicate", desc: "We can create custom products based on your design." },
     { id: 2, img: Product2, title: "Multi Purposes Item", desc: "You can use it anywhere for multiple purposes." },
-    { id: 3, img: Product3, title: "Screw Cap Bottle", desc: "We offer multi-color screw caps and wooden corks as well." },
+    { id: 3, img: Product3, title: "Screw Cap And Wooden Corck", desc: "We offer multi-color screw caps and wooden corks as well." },
   ];
 
   return (
     <section className="bg-gray-300 py-16">
       <div className="max-w-7xl mx-auto px-6 text-center">
-        <h2 className="text-3xl font-extrabold text-gray-800 mb-10">Products Featured</h2>
+        <h2 className="text-3xl font-extrabold text-gray-800 mb-10">Our Key Features</h2>
 
         <div className="grid gap-8 md:grid-cols-3">
           {products.map((item) => (
@@ -31,10 +31,9 @@ const ProductsSection = () => {
                   height={200}
                 />
               </div>
-
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">
-                  {item.title}
+                  <strong>{item.title}</strong>
                 </h3>
                 <p className="text-gray-600 text-sm mb-4">{item.desc}</p>
               </div>
