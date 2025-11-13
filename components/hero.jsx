@@ -4,7 +4,7 @@ import BgImage from "@/public/bg.png"; // 👈 Background image import
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-[80vh] md:min-h-[60vh] flex items-center justify-center w-full overflow-hidden">
+    <section className="relative min-h-[90vh] md:min-h-[60vh] flex items-center justify-center w-full overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 -z-10 md:min-h-[60vh]">
         <Image
@@ -21,8 +21,8 @@ const HeroSection = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between text-white z-10">
 
         {/* Left Side */}
-        <div className="md:w-1/2 mb-10 md:my-2">
-          <h1 className="text-4xl font-extrabold mb-4 leading-snug drop-shadow-lg">
+        <div className="md:w-1/2 mb-10">
+          <h1 className="text-4xl font-extrabold mb-2 leading-snug drop-shadow-lg">
             Best Borosilicate Glassware 
             Seller in India | <strong><span className="text-red-500">Gaurav</span><span className="text-blue-950">Trading </span></strong>
           </h1>
