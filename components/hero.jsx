@@ -21,7 +21,7 @@ const HeroSection = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between text-white z-10">
 
         {/* Left Side */}
-        <div className="md:w-1/2 mb-10 md:mb-0">
+        <div className="md:w-1/2 mb-10 md:my-2">
           <h1 className="text-4xl font-extrabold mb-4 leading-snug drop-shadow-lg">
             Best Borosilicate Glassware 
             Seller in India | <strong><span className="text-red-500">Gaurav</span><span className="text-blue-950">Trading </span></strong>
