@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Gaurav Trading Co. | Premium Borosil Glassware Supplier",
+  title: "glassware manufacturers | Borosil Glassware Supplier in delhi | Gaurav Trading Co.",
   description:
     "Buy high-quality borosil glassware including beakers, test tubes, flasks, measuring cylinders, and more at best prices. Gaurav Trading Co. delivers durable, heat-resistant lab glassware with safe packaging and pan-India delivery.",
 };
