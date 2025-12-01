@@ -110,7 +110,7 @@ const Navbar = () => {
             </Link>
 
           <Link
-              href="/bolg"
+              href="/blog"
               className="hover:text-red-600 transition"
               onClick={() => setIsOpen(false)}
             >
