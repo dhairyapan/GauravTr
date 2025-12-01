@@ -109,19 +109,13 @@ const Navbar = () => {
               Contact
             </Link>
 
-            <span
-              className="text-red-600 font-semibold flex items-center gap-2 cursor-pointer"
-              onClick={copyToClipboard}
+          <Link
+              href="/bolg"
+              className="hover:text-red-600 transition"
+              onClick={() => setIsOpen(false)}
             >
-              <lord-icon
-                src="https://cdn.lordicon.com/gkggixgu.json"
-                trigger="hover"
-                stroke="bold"
-                colors="primary:#000000,secondary:#ff0000"
-                style={{ width: "30px", height: "30px" }}
-              ></lord-icon>
-              {copied ? "Copied!" : "+91-98182-98432"}
-            </span>
+              Blog
+            </Link>
           </div>
         </div>
       )}
