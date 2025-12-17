@@ -132,14 +132,7 @@ export default function Home() {
                   We are committed to delivering reliable, accurate, and tailor-made glassware solutions for our clients.
                 </p>
 
-                <div className="flex justify-center lg:justify-start">
-                  <Link href="" className="inline-block px-6 py-3 rounded-xl bg-gradient-to-r from-blue-600 to-blue-800 text-white font-semibold shadow-lg hover:shadow-xl hover:opacity-90 transition-all duration-300">
-                    Learn more
-                  </Link>
-                </div>
-
               </div>
-
             </div>
           </div>
           <div className="w-full bg-white py-10">
