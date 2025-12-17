@@ -170,7 +170,7 @@ export default function Home() {
               <div className="w-full lg:w-1/2 order-1 lg:order-2">
                 <Image
                   src={bestcoutosupport}
-                  alt="Custom Glassware Manufacturing"
+                  alt="24/7 Customer Support for Laboratory Glassware Solutions"
                   className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[420px] object-cover rounded-2xl shadow-lg"
                 />
               </div>
@@ -184,7 +184,7 @@ export default function Home() {
               <div className="w-full lg:w-1/2">
                 <Image
                   src={blukorder}
-                  alt="Custom Glassware Manufacturing"
+                  alt="Bulk Manufacturing Services for Laboratory Glassware Products"
                   className="w-full h-[340px] object-cover rounded-2xl shadow-md"
                 />
               </div>
@@ -235,7 +235,7 @@ export default function Home() {
               <div className="w-full lg:w-1/2 order-1 lg:order-2">
                 <Image
                   src={alloverindia}
-                  alt="Custom Glassware Manufacturing"
+                  alt="Pan India Delivery for Laboratory Glassware & Lab Equipment"
                   className="w-full h-[250px] sm:h-[300px] md:h-[350px] lg:h-[420px] object-fit rounded-2xl shadow-lg"
                 />
               </div>
