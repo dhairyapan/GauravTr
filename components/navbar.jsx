@@ -46,9 +46,6 @@ const Navbar = () => {
             <Link href="/contact" className="hover:text-red-600 transition">
               Contact
             </Link>
-            <Link href="/blog" className="hover:text-red-600 transition">
-              Blog
-            </Link>
           </div>
 
           {/* ✅ Mobile Menu Button */}
@@ -107,14 +104,6 @@ const Navbar = () => {
               onClick={() => setIsOpen(false)}
             >
               Contact
-            </Link>
-
-          <Link
-              href="/blog"
-              className="hover:text-red-600 transition"
-              onClick={() => setIsOpen(false)}
-            >
-              Blog
             </Link>
           </div>
         </div>

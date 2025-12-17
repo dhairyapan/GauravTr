@@ -16,9 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "glassware manufacturers | Borosil Glassware Supplier in delhi | Gaurav Trading Co.",
+  title: "Laboratory Glassware Manufacturer in India | Gaurav Trading",
   description:
-    "Buy high-quality borosil glassware including beakers, test tubes, flasks, measuring cylinders, and more at best prices. Gaurav Trading Co. delivers durable, heat-resistant lab glassware with safe packaging and pan-India delivery.",
+    "Laboratory glassware manufacturer in India offering lowest price and customized glassware solutions. Gaurav Trading supplies Class A & Class B glassware for pharmaceutical, educational, and industrial laboratories.",
 };
 
 export default function RootLayout({ children }) {
